@@ -1,0 +1,27 @@
+first we need to do
+$ git config --global user.username '<username>'
+$ git config --global user.email <email>
+
+Then we need to do
+$ git init
+
+Then we add files to the repo, then to check the status of files
+$ git status
+
+To add unstaged files to staged area
+$ git add <filename>
+
+To add all unstaged files to staged area
+$ git add .
+
+To commit all the files in the staged area
+$ git commit -m '<commit message>'
+
+Now got to GitHub and create new repo. Then,
+$ git remote add origin <repo URL>
+
+Switch to main branch (master branch is no longer used)
+$ git branch -M main
+
+To push all changes to GitHub
+$ git push origin <branch name>
